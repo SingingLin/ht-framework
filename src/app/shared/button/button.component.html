@@ -1,0 +1,7 @@
+<div class="conatiner">
+    <span>{{ description }}</span>
+</div>
+
+<div class="ht-btn text-align-center">
+    <button *ngFor="let item of btnArray" class="ht-btn__button {{vertical=='true'?'ht-btn__button--vertical':''}}">{{item}}</button>
+</div>
