@@ -12,15 +12,25 @@
     font-weight: bolder;
     font-size: 34px;
     margin-left: 50px;
+    width: 150px;
+
+    &__img {
+        width: 100%;
+    }
 }
 
-.list__item {
-    margin: 0 10px;
-    padding: 10px;
-    font-size: 18px;
+.header__list {
+    text-transform: uppercase;
 
-    &-logout {
-        margin: 0 40px;
-        border: 1px #fff solid;
+    &__item {
+        margin: 0 10px;
+        padding: 10px;
+        font-size: 18px;
+    
+        &--logout {
+            margin: 0 40px;
+            border: 1px #fff solid;
+        }
     }
+
 }
