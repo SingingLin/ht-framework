@@ -1,0 +1,21 @@
+.dash-board {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash-board__item {
+    width: 30%;
+    height: 500px;
+
+    &--red {
+        border-top: 4px solid #d60707;
+    }
+
+    &--orange {
+        border-top: 4px solid #ff5200;
+    }
+
+    &--green {
+        border-top: 4px solid #5abd5f;
+    }
+}

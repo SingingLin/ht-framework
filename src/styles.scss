@@ -1,5 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+    主色： 紅色/橙色
+    配色： 黃/藍/綠/粉
+    紅：#d60707;
+    橙：#ff5200;
+    綠：#5abd5f;
+    灰：深 #afafaf 淺 #efefef;
+*/
+
 @import './assets/css/reset.css';
+
+body {
+    background-color: #f3f3f3;
+}
+
+.sub-title {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 0 60px;
+    text-transform: uppercase;
+}
+
+.section-paddinginside {
+    margin: 2% 60px;
+}
+
+.hcp-block {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #c1c1c1;
+    border: 1px solid #d8d6d6;
+    overflow: hidden;
+}
 
 * {
     box-sizing: border-box;
@@ -16,4 +53,8 @@
 
 .text-align-center {
     text-align: center;
+}
+
+.is-flexBox {
+    display: flex;
 }

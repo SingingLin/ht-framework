@@ -1,0 +1,40 @@
+.sub-title {
+    align-items: center;
+    justify-content: space-between;
+
+    &__plus {
+        background-color: #5abd5f;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px #c1c1c1;
+
+        &__text {
+            font-size: 30px;
+            line-height: 25px;
+            padding-left: 6px;
+            color: #fff;
+        }
+    }
+}
+
+.image-list {
+    width: 100%;
+
+    &__item {
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding: 0 15px;
+        background: #efefef;
+
+        &--red {
+            background-color: #d60707;
+            color: #fff;
+        }
+
+        &:nth-child(even){
+            background: #fff;
+        }
+    }
+}

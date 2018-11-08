@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #ff5200;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header__logo {
+    font-weight: bolder;
+    font-size: 34px;
+    margin-left: 50px;
+}
+
+.list__item {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 18px;
+
+    &-logout {
+        margin: 0 40px;
+        border: 1px #fff solid;
+    }
+}
